@@ -1,0 +1,36 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config-lite": "^2.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-formidable": "^1.0.0",
+    "express-session": "^1.15.6",
+    "express-winston": "^2.5.1",
+    "marked": "^0.4.0",
+    "moment": "^2.22.2",
+    "mongolass": "^4.3.2",
+    "objectid-to-timestamp": "^1.3.0",
+    "sha1": "^1.1.1",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
