@@ -13,3 +13,8 @@ package-lock.json
 *.ntvs*
 *.njsproj
 *.sln
+
+config/*
+!config/default.*
+log/*
+public/img/*
