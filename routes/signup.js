@@ -14,7 +14,6 @@ router.get('/', checkNotLogin, function (req, res, next) {
 
 // POST /signup 用户注册
 router.post('/', checkNotLogin, function (req, res, next) {
-  console.log(req.fields)
   const { name, gender, bio, repassword } = req.fields
   const avatar = req.files.avatar.path.split(path.sep).pop()
   let password = req.fields.password

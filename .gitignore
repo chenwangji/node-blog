@@ -18,3 +18,6 @@ config/*
 !config/default.*
 logs/*
 public/img/*
+
+# test
+coverage/*
