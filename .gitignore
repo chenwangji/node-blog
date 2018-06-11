@@ -16,5 +16,5 @@ package-lock.json
 
 config/*
 !config/default.*
-log/*
+logs/*
 public/img/*
