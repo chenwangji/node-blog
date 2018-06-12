@@ -14,8 +14,8 @@ package-lock.json
 *.njsproj
 *.sln
 
-logs/*
-public/img/*
+# logs/*
+# public/img/*
 
 # test
 coverage/*
