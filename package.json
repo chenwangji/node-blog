@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha",
-    "eslint": "eslint --init"
+    "eslint": "eslint --init",
+    "start": "NODE_ENV=production pm2 start index.js --name 'myblog'",
+    "heroku": "NODE_ENV=production node index"
   },
   "author": "",
   "license": "ISC",

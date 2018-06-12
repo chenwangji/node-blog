@@ -92,7 +92,8 @@ if (module.parent) {
   // 被require, 则导出 app, 通常用于测试
   module.exports = app
 } else {
-  app.listen(config.port, () => {
-    console.log(`${pkg.name} listening on port ${config.port}`)
+  const port = process.env.PORT || config.port
+  app.listen(port, () => {
+    console.log(`${pkg.name} listening on port ${port}`)
   })
 }

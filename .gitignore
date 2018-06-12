@@ -14,8 +14,6 @@ package-lock.json
 *.njsproj
 *.sln
 
-config/*
-!config/default.*
 logs/*
 public/img/*
 
